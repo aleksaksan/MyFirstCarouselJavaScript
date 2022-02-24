@@ -78,14 +78,14 @@ const carouselSwitcher = document.querySelector('.carousel-switcher');
 var switcherCounter = 0;
 
 function switchCarouselItemByButton(btn) {
-    carouselSwitcher.children[switcherCounter].classList.remove('active');
+    carouselSwitcher.querySelector('.active').classList.remove('active');
     
     if (btn.classList.contains('left')) {
         ofset -= elementWidth * step;
         switcherCounter--;
         if (ofset < 0) {
             ofset = (carouselItemsContainer.children.length - step) * elementWidth;
-            switcherCounter = carouselItemsContainer.children.length / step;
+            switcherCounter = (carouselItemsContainer.children.length - step) / step;
         }
     }
     else if (btn.classList.contains('right')) {
