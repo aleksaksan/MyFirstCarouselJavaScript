@@ -1,0 +1,491 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page For your Online Product</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/hamburgers.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container flex-between">
+            <div class="logo flex-container vertical-center">
+                <img src="./images/ic_schedule_24px.png" alt="Logo">
+                Time
+            </div>
+            <div class="navigation-panel flex-container vertical-center">
+                <nav>
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Features</a>
+                    <a href="#" class="nav-link">Product</a>
+                    <a href="#" class="nav-link">Testimonial</a>
+                    <a href="#" class="nav-link">FAQ</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+                <button class="common-button">Buy Now</button>
+            </div>
+            <button class="hamburger hamburger--stand mobile-only" type="button" onclick="toggleBurger()">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-product">
+            <div class="container flex-between">
+                <img src="./images/watch-1.png" alt="Awesome watch" class="desktop-only">
+                <div class="about-product-content">
+                    <h1>Landing Page For your Online Product</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
+                        mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper
+                        suscipit
+                    </p>
+                    <button class="common-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="about-us container flex-between">
+            <div class="about-us-content">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.
+                </p>
+                <a href="about-us.html" class="common-button">Read More</a>
+            </div>
+            <img src="./images/watch-3.png" alt="Another awesome watch">
+        </div>
+        <div class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="features-grid">
+                    <div class="grid-item">
+                        <img src="./images/watch-icon.png" alt="Watch">
+                        <div class="card-title">Watch</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/thermometer-icon.png" alt="Thermometer">
+                        <div class="card-title">Thermometer</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/microphone-icon.png" alt="Microphone">
+                        <div class="card-title">Microphone</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/line-chart-icon.png" alt="Line-chart">
+                        <div class="card-title">Line-chart</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/location-icon.png" alt="Location">
+                        <div class="card-title">Location</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/quality-icon.png" alt="Quality">
+                        <div class="card-title">Quality</div>
+                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="why-us container flex-between">
+            <img src="./images/watch-6.png" alt="Watch with white belt">
+            <div class="why-us-content">
+                <h2>Why Choose The Product</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.
+                </p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Ut enim ad minim veniam</li>
+                    <li>Duis aute irure</li>
+                    <li>Excepteur sint occaecat</li>
+                </ul>
+            </div>
+        </div>
+        <div class="products">
+            <div class="container">
+                <h2>Product</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="products-container flex-between">
+                    <div class="product-item">
+                        <img src="./images/watch-4.png" alt="Product 1">
+                        <div class="product-title">Red Beauty</div>
+                        <div class="product-price">$81</div>
+                        <a class="bordered-button">Choose</a>
+                    </div>
+                    <div class="product-item">
+                        <img src="./images/watch-11.png" alt="Product 2">
+                        <div class="product-title">Product Name</div>
+                        <div class="product-price">$75</div>
+                        <a class="bordered-button">Choose</a>
+                    </div>
+                    <div class="product-item">
+                        <img src="./images/watch-5.png" alt="Product 3">
+                        <div class="product-title">Green Exclusive</div>
+                        <div class="product-price">$69</div>
+                        <a class="bordered-button">Choose</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback container">
+            <h2>Client's Feedback</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="feedback-carousel">
+                <div class="carousel-wrapper">
+                    <button class="carousel-arrow left" onclick="switchCarouselItemByButton(this)">
+                        <img src="./images/arrow-left.png" alt="Carousel-button">
+                    </button>
+                    <button class="carousel-arrow right" onclick="switchCarouselItemByButton(this)">
+                        <img src="./images/arrow-left.png" alt="Carousel-button">
+                    </button>
+                    <div class="carousel-frame">
+                        <div class="carousel-items-container flex-container">
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/oleh.png" alt="Oleh" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">M.Deer</span>
+                                        <br>
+                                        <span class="author-position">Dj artist</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/2.png" alt="2" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Chabanov Oleh</span>
+                                        <br>
+                                        <span class="author-position">Designer</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/alla.png" alt="Alla" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Alla Palo</span>
+                                        <br>
+                                        <span class="author-position">Profession</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/oleh.png" alt="Oleh" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">M.Deer 2</span>
+                                        <br>
+                                        <span class="author-position">Dj artist</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/2.png" alt="2" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Chabanov Oleh 2</span>
+                                        <br>
+                                        <span class="author-position">Designer</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/alla.png" alt="Alla" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Alla Palo 2</span>
+                                        <br>
+                                        <span class="author-position">Profession</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/oleh.png" alt="Oleh" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">M.Deer 2</span>
+                                        <br>
+                                        <span class="author-position">Dj artist</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/2.png" alt="2" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Chabanov Oleh 2</span>
+                                        <br>
+                                        <span class="author-position">Designer</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="feedback-info flex-container vertical-center">
+                                    <img src="./images/alla.png" alt="Alla" class="author-photo">
+                                    <div class="feedback-author">
+                                        <span class="author-name">Alla Palo 2</span>
+                                        <br>
+                                        <span class="author-position">Profession</span>
+                                    </div>
+                                </div>
+                                <div class="feedback-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-switcher">
+                        <button class="carousel-switch active" onclick="switchCarouselItemBySwitcher(this)"></button>
+                        <button class="carousel-switch" onclick="switchCarouselItemBySwitcher(this)"></button>
+                        <button class="carousel-switch" onclick="switchCarouselItemBySwitcher(this)"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="container flex-between">
+                <div class="faq-content">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-item-head flex-between" onclick="toggleAccordionItem(this)">
+                                <div class="accordion-item-head-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed?
+                                </div>
+                                <button class="accordion-item-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                        <path id="ic_keyboard_arrow_down_24px" d="M7.41,7.84,12,12.42l4.59-4.58L18,9.25l-6,6-6-6Z" transform="translate(-6 -7.84)" fill="#c1c1c1"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="accordion-item-body">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-head flex-between" onclick="toggleAccordionItem(this)">
+                                <div class="accordion-item-head-content">
+                                    Excepteur sint occaecat cupidatat non proident?
+                                </div>
+                                <button class="accordion-item-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                        <path id="ic_keyboard_arrow_down_24px" d="M7.41,7.84,12,12.42l4.59-4.58L18,9.25l-6,6-6-6Z" transform="translate(-6 -7.84)" fill="#c1c1c1"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="accordion-item-body">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 2
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-head flex-between" onclick="toggleAccordionItem(this)">
+                                <div class="accordion-item-head-content">
+                                    Ut enim ad minima veniam, quis nostrum exercitationem?
+                                </div>
+                                <button class="accordion-item-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                        <path id="ic_keyboard_arrow_down_24px" d="M7.41,7.84,12,12.42l4.59-4.58L18,9.25l-6,6-6-6Z" transform="translate(-6 -7.84)" fill="#c1c1c1"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="accordion-item-body">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 3
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-head flex-between" onclick="toggleAccordionItem(this)">
+                                <div class="accordion-item-head-content">
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit?
+                                </div>
+                                <button class="accordion-item-toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                        <path id="ic_keyboard_arrow_down_24px" d="M7.41,7.84,12,12.42l4.59-4.58L18,9.25l-6,6-6-6Z" transform="translate(-6 -7.84)" fill="#c1c1c1"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="accordion-item-body">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 4
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-item-head flex-between" onclick="toggleAccordionItem(this)">
+                                <div class="accordion-item-head-content">
+                                    But in certain circumstances and owing?
+                                </div>
+                                <button class="accordion-item-toggle" >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.41" viewBox="0 0 12 7.41">
+                                        <path id="ic_keyboard_arrow_down_24px" d="M7.41,7.84,12,12.42l4.59-4.58L18,9.25l-6,6-6-6Z" transform="translate(-6 -7.84)" fill="#c1c1c1"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="accordion-item-body">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 5
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/watch-3.png" alt="Beautiful watch">
+            </div>
+        </div>
+        <div class="contact-us container">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="contact-us-content flex-container">
+                <form action="#">
+                    <div class="form-input-wrapper">
+                        <input type="text" class="form-input" placeholder="Name">
+                        <div class="input-shadow"></div>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <input type="text" class="form-input" placeholder="E-mail">
+                        <div class="input-shadow"></div>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <input type="text" class="form-input" placeholder="Subject">
+                        <div class="input-shadow"></div>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <textarea class="form-input"></textarea>
+                        <div class="input-shadow"></div>
+                    </div>
+                    <button class="common-button">Submit</button>
+                </form>
+                <div class="contacts-container">
+                    <div class="contacts-group">
+                        <div class="contacts-group-label flex-container vertical-center">
+                            <img src="./images/phone-icon.png" alt="Phone">
+                            <span>Phone</span>
+                        </div>
+                        <div class="contacts-group-content">
+                            <div class="contacts-item">+01 12345 67890 </div>
+                            <div class="contacts-item">+01 12371 67899 </div>
+                        </div>
+                    </div>
+                    <div class="contacts-group">
+                        <div class="contacts-group-label flex-container vertical-center">
+                            <img src="./images/mail-icon.png" alt="Mail">
+                            <span>Mail</span>
+                        </div>
+                        <div class="contacts-group-content">
+                            <div class="contacts-item">shaman@name.com</div>
+                        </div>
+                    </div>
+                    <div class="contacts-group">
+                        <div class="contacts-group-label flex-container vertical-center">
+                            <img src="./images/address-icon.png" alt="Address">
+                            <span>Address</span>
+                        </div>
+                        <div class="contacts-group-content">
+                            <div class="contacts-item">Ukraine, Kiev</div>
+                        </div>
+                    </div>
+                    <div class="contacts-group">
+                        <div class="contacts-group-label flex-container vertical-center">
+                            <span>Follow Us</span>
+                        </div>
+                        <div class="contacts-group-content flex-container">
+                            <a class="contact-link" href="#" target="_blank">
+                                <img src="./images/facebook.png" alt="facebook">
+                            </a>
+                            <a class="contact-link" href="#" target="_blank">
+                                <img src="./images/twitter.png" alt="twitter">
+                            </a>
+                            <a class="contact-link" href="#" target="_blank">
+                                <img src="./images/google-plus.png" alt="google-plus">
+                            </a>
+                            <a class="contact-link" href="#" target="_blank">
+                                <img src="./images/instagram.png" alt="instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">© Copy 2018 All Rights Reserved</div>
+    </footer>
+    
+    <script src="./js/common-stuff.js"></script>
+</body>
+
+</html>
